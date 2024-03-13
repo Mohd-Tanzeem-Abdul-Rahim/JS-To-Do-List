@@ -129,3 +129,25 @@ footer h3{
     background: linear-gradient(134deg , blue , powderblue);
     
 }
+@media only screen and (max-width: 510px) {
+    .row{
+        display: contents;
+        align-items: center;
+        justify-content: space-between;
+        background: transparent;
+        border-radius: 30px;
+        padding: 20px;
+        margin-bottom: 25px;
+        border: solid 1px;
+    
+    }
+    .todo-app{
+        width: 100%;
+        max-width: 540px;
+        background: #fff;
+        margin: 100px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 10px;
+        background-color: burlywood;
+    }
+  }
